@@ -26,7 +26,7 @@ jobs:
     - name: Podłączenie App Service
       uses: azure/appservice-build@v3
       with:
-        platform: node.js
+        platform: nodejs
         version: 16.16.0
     - name: Wdrożenie aplikacji do Azure App Service
       uses: azure/webapps-deploy@v1
